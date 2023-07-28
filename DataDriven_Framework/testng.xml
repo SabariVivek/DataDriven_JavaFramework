@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Suite">
+
+    <listeners>
+        <listener class-name="com.project.component.listeners.TestRetryAnalyzerListener"/>
+        <listener class-name="com.project.component.listeners.ListenerClass"/>
+    </listeners>
+
+    <test verbose="4" name="Data Driven Tests">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.project.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>

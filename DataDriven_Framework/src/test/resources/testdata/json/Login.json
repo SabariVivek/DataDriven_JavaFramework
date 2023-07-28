@@ -1,0 +1,23 @@
+[
+  {
+    "FirstName": "Sabari",
+    "LastName": "Vivek",
+    "Email": "Random",
+    "Password": "Sabari@123",
+    "ConfirmPassword": "Sabari@123"
+  },
+  {
+    "FirstName": "Anu",
+    "LastName": "Vivek",
+    "Email": "Random",
+    "Password": "Anuradha@123",
+    "ConfirmPassword": "Anuradha@123"
+  },
+  {
+    "FirstName": "Rocky",
+    "LastName": "Vivek",
+    "Email": "Random",
+    "Password": "RockyHarry@123",
+    "ConfirmPassword": "RockyHarry@123"
+  }
+]
